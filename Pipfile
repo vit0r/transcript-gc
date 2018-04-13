@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-json = "*"
+gunicorn = "*"
+google-cloud-speech = "*"
+google-cloud-storage = "*"
+google-auth = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
